@@ -1,0 +1,14 @@
+docker container run -d seqvence/static-site
+
+# in detach mode
+
+docker container run --name static-site -e AUTHOR="Your Name" -d -P seqvence/static-site
+
+# ports
+docker container port static-site
+
+# ports exposed
+
+docker container run --name static-site-2 -e AUTHOR="Your Name" -d -p 8888:80 seqvence/static-site
+
+
