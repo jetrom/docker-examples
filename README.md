@@ -1,2 +1,2 @@
 # docker-examples
-easy examples using docker
+easy examples using docker and docker-compose
